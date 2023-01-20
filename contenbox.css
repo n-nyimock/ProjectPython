@@ -32,3 +32,19 @@ img{
     transition: 0.5s;
     z-index: 1;
 }
+.content .box:hover.icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.content .box .icon img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    transition: 0.5s;
+    color: #fff;
+}
